@@ -1,4 +1,4 @@
-This Vagrant box replicates the environment created by Linode's [Rails 3 &amp; Ruby 1.9.2 StackScript](http://www.linode.com/stackscripts/view/?StackScriptID=1291).
+This [Vagrant](http://www.vagrantup.com/) box replicates the environment created by Linode's [Rails 3 &amp; Ruby 1.9.2 StackScript](http://www.linode.com/stackscripts/view/?StackScriptID=1291).
 
 ## Included packages
 
