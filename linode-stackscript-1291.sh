@@ -413,7 +413,7 @@ function log {
   log "MySQL installed"
 
 # Set up Postfix
-  postfix_install_loopback_only
+  #postfix_install_loopback_only
 
 # Installing Ruby
   export RUBY_VERSION="ruby-1.9.2-p0"
