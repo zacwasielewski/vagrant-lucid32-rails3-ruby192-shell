@@ -25,3 +25,10 @@ $ git clone git://github.com/zacwasielewski/vagrant-lucid32-rails3-ruby192.git
 $ cd vagrant-lucid32-rails3-ruby192
 $ vagrant up
 ```
+## Notes
+
+The default MySQL password is 'vagrant'. You may want to change it:
+
+```bash
+$ mysqladmin -u root -p'vagrant' password newpass
+```
