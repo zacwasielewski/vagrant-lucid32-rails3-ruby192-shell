@@ -451,7 +451,7 @@ function log {
 
 # Configure nginx to start automatically
   #wget http://library.linode.com/web-servers/nginx/installation/reference/init-deb.sh
-  wget http://library.linode.com/assets/660-init-deb.sh
+  wget -o init-deb.sh http://library.linode.com/assets/660-init-deb.sh
   cat init-deb.sh | sed 's:/opt/:/usr/local/:' > /etc/init.d/nginx
   chmod +x /etc/init.d/nginx
   /usr/sbin/update-rc.d -f nginx defaults
