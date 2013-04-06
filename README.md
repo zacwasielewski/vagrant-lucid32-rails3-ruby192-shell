@@ -18,7 +18,9 @@ Also, these tasks are executed:
 
 ## Installing
 
-Clone the repo and run Vagrant:
+Install VirtualBox
+Install Vagrant
+Clone this repo and run Vagrant:
 
 ```bash
 $ git clone git://github.com/zacwasielewski/vagrant-lucid32-rails3-ruby192.git
@@ -32,3 +34,8 @@ The default MySQL password is 'vagrant'. You may want to change it:
 ```bash
 $ mysqladmin -u root -p'vagrant' password newpass
 ```
+
+##Requirements
+
+[Vagrant](http://downloads.vagrantup.com/) (v1.1.0 or above)
+[VirtualBox](https://www.virtualbox.org/)
