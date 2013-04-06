@@ -18,9 +18,9 @@ Also, these tasks are executed:
 
 ## Installing
 
-Install VirtualBox
-Install Vagrant
-Clone this repo and run Vagrant:
+1. Install VirtualBox
+2. Install Vagrant
+3. Clone this repo and run Vagrant:
 
 ```bash
 $ git clone git://github.com/zacwasielewski/vagrant-lucid32-rails3-ruby192.git
@@ -37,5 +37,5 @@ $ mysqladmin -u root -p'vagrant' password newpass
 
 ##Requirements
 
-[Vagrant](http://downloads.vagrantup.com/) (v1.1.0 or above)
-[VirtualBox](https://www.virtualbox.org/)
+- [Vagrant](http://downloads.vagrantup.com/) (v1.1.0 or above)
+- [VirtualBox](https://www.virtualbox.org/)
