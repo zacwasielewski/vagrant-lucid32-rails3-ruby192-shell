@@ -35,6 +35,17 @@ The default MySQL password is 'vagrant'. You may want to change it:
 $ mysqladmin -u root -p'vagrant' password newpass
 ```
 
+## Important!
+
+If you need to run `vagrant up` after the initial install, be sure to add the `--no-provision` flag:
+
+```bash
+vagrant up --no-provision
+```
+
+This prevents Vagrant from wiping out your nginx, MySQL, or Ruby gem customizations. (When I get some free time I'll modify the post-install bash script to do this properly.)
+
+
 ##Requirements
 
 - [Vagrant](http://downloads.vagrantup.com/) (v1.1.0 or above)
